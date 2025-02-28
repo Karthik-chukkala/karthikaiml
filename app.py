@@ -1,6 +1,7 @@
 import requests
 
-url = "https://disease.sh/v3/covid-19/countries/all"
+url = "https://disease.sh/v3/covid-19/all"
+
 r = requests.get(url)
 data = r.json()
 
